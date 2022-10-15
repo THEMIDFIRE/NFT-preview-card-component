@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  background-color: #0d192b;
+  color: #8bacda;
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+body a:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+main .card {
+  background-color: #14253d;
+  max-width: 58%;
+  border-radius: 15px;
+  padding: 23px 23px 32px 23px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .card .img {
+  position: relative;
+}
+
+main .card .img .card-image {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+main .card .img .view-icon {
+  display: none;
+  border-radius: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: rgba(0, 255, 247, 0.45);
+  padding: 42.4%;
+}
+
+main .card .img:hover .view-icon {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  display: block;
+}
+
+main .card .card-title {
+  font-size: .65em;
+}
+
+main .card .description {
+  margin: 20px 0;
+}
+
+main .card .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .card .info .price, main .card .info .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .card .info .price {
+  color: #00fff7;
+}
+
+main .card .info img {
+  margin-right: 5px;
+}
+
+main .card hr {
+  color: #2f415b;
+  margin: 20px 0;
+}
+
+main .card .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .card .author img {
+  width: 11%;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 0 15px 0 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
